@@ -7,3 +7,8 @@ pyenv versions
 
 pip --version
 python --version
+
+pyenv local 3.6.7
+
+pip --version
+python --version

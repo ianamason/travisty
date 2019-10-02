@@ -10,9 +10,9 @@ compiler:
 
 env:
   matrix:
-    - CMAKE_BUILD_TYPE=Debug PYTHON=2.7
+    - CMAKE_BUILD_TYPE=Debug PYTHON=2.7.15
     - CMAKE_BUILD_TYPE=Debug PYTHON=3.6.7
-    - CMAKE_BUILD_TYPE=Release PYTHON=2.7
+    - CMAKE_BUILD_TYPE=Release PYTHON=2.7.15
     - CMAKE_BUILD_TYPE=Release PYTHON=3.6.7
 
 before_install:

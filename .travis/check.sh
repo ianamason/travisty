@@ -5,7 +5,5 @@ set -e
 
 pyenv versions
 
-pyenv global 3.6.7
-
 pip --version
 python --version

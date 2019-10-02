@@ -12,6 +12,8 @@ env:
   matrix:
     - CMAKE_BUILD_TYPE=Debug
     - CMAKE_BUILD_TYPE=Release
+    - PYTHON=2.7
+    - PYTHON=3.6.7  #these might need to change over time
 
 before_install:
    - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-key update; sudo apt-get update; fi

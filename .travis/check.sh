@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Make sure we exit if there is a failure
+set -e
 
 
-exit 0
+pyenv global 3.6
+
+pip --version
+python --version

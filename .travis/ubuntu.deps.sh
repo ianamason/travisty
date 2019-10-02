@@ -7,5 +7,5 @@ echo $PYTHON
 echo 'eval "$(pyenv init -)"' >> ${HOME}/.bash_profile;
 source ${HOME}/.bash_profile;
 
-pyenv install ${PYTHON};
+if [ "$PYTHON" = "2.7" ]; then pyenv install ${PYTHON}; fi
 pyenv global ${PYTHON};

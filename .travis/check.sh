@@ -10,5 +10,7 @@ python --version
 
 pyenv local 3.6.7
 
+echo $PATH
+
 pip --version
 python --version

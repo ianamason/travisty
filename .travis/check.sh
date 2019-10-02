@@ -3,12 +3,14 @@
 # Make sure we exit if there is a failure
 set -e
 
+source ~/.bash_profile
+
 pyenv versions
 
 pip --version
 python --version
 
-pyenv local 3.6.7
+pyenv global 3.6.7
 
 echo $PATH
 

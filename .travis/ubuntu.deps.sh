@@ -2,4 +2,5 @@
 
 sudo apt-get install curl cmake make libgmp-dev
 
-curl https://pyenv.run | bash
+#travis comes with pyenv
+#curl https://pyenv.run | bash

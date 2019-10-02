@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Make sure we exit if there is a failure
-set -e
+#set -e
 
-source ~/.bash_profile
+source ${HOME}/.bash_profile
 
 pyenv versions
 

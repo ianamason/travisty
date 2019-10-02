@@ -2,8 +2,8 @@
 
 sudo apt-get install curl cmake make libgmp-dev
 
-echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+echo 'eval "$(pyenv init -)"' >> ${HOME}/.bash_profile
 
-source ~/.bash_profile
+source ${HOME}/.bash_profile
 
 pyenv global 3.6.7

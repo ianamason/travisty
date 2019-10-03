@@ -7,8 +7,6 @@ pyenv versions
 pip --version
 python --version
 
-pip install sympy
-
 git clone https://github.com/ianamason/libpoly.git
 cd libpoly
 git checkout python3

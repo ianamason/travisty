@@ -13,3 +13,12 @@ source ${HOME}/.bash_profile;
 # no python 3.6.7 on osx as of 10/2019;
 pyenv install ${PYTHON};
 pyenv global ${PYTHON};
+
+
+pyenv versions
+
+pip --version
+python --version
+
+
+pip install sympy

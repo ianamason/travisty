@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Make sure we exit if there is a failure
-# set -e
+set -e
 
 source ${HOME}/.bash_profile
 
@@ -23,4 +23,4 @@ cmake -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}  ..
 make
 make check
 
-exit 0
+exit $?
